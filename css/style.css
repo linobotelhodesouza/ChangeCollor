@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #34495e;
+}
+.box{
+    position: absolute;
+    top: 40px;
+    right: 40px;
+    padding: 5px;
+    background: #f1f1f1;
+}
+.box a{
+    width: 40px;
+    height: 40px;
+    float: left;
+    text-indent: -9999px;
+    margin: 5px;
+}
+
+#orange{
+    background: #fe9801;
+}
+#red{
+    background: #fa163f;
+}
+#green{
+    background: #50d890;
+}
+#purple{
+    background: #550a46;
+}
+#black{
+    background: #232020;
+}
+#yellow{
+    background: #ffd271;
+}

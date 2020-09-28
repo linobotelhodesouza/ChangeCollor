@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+
+    <body>
+        <div class="box">
+            <a onclick ="changecolor('orange')" id="orange">#fe9801</a>
+            <a onclick ="changecolor('red')" id="red">#fa163f</a>
+            <a onclick ="changecolor('green')" id="green">#50d890</a>
+            <a onclick ="changecolor('purple')" id="purple">#550a46</a>
+            <a onclick ="changecolor('black')" id="black">#232020</a>
+            <a onclick ="changecolor('yellow')" id="yellow">#ffd271</a>
+        </div>
+
+        <script type="text/javascript">
+            function changecolor(id){
+                document.body.style.background = document.getElementById(id).innerHTML;
+            }
+        
+        </script>
+
+
+
+    </body>
+</html>
